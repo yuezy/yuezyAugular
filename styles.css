@@ -1,0 +1,393 @@
+/*h1 {
+  color: #369;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 250%;
+}*/
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed,
+figure, figcaption, footer, header, hgroup,
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font: inherit;
+  font-size: 100%;
+  vertical-align: baseline;
+}
+
+/* line 22, ../../../../../../../../../Library/Ruby/Gems/2.0.0/gems/compass-core-1.0.3/stylesheets/compass/reset/_utilities.scss */
+html {
+  line-height: 1;
+}
+
+/* line 24, ../../../../../../../../../Library/Ruby/Gems/2.0.0/gems/compass-core-1.0.3/stylesheets/compass/reset/_utilities.scss */
+ol, ul {
+  list-style: none;
+}
+
+/* line 26, ../../../../../../../../../Library/Ruby/Gems/2.0.0/gems/compass-core-1.0.3/stylesheets/compass/reset/_utilities.scss */
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+
+/* line 28, ../../../../../../../../../Library/Ruby/Gems/2.0.0/gems/compass-core-1.0.3/stylesheets/compass/reset/_utilities.scss */
+caption, th, td {
+  text-align: left;
+  font-weight: normal;
+  vertical-align: middle;
+}
+
+/* line 30, ../../../../../../../../../Library/Ruby/Gems/2.0.0/gems/compass-core-1.0.3/stylesheets/compass/reset/_utilities.scss */
+q, blockquote {
+  quotes: none;
+}
+/* line 103, ../../../../../../../../../Library/Ruby/Gems/2.0.0/gems/compass-core-1.0.3/stylesheets/compass/reset/_utilities.scss */
+q:before, q:after, blockquote:before, blockquote:after {
+  content: "";
+  content: none;
+}
+
+/* line 32, ../../../../../../../../../Library/Ruby/Gems/2.0.0/gems/compass-core-1.0.3/stylesheets/compass/reset/_utilities.scss */
+a img {
+  border: none;
+}
+
+/* line 116, ../../../../../../../../../Library/Ruby/Gems/2.0.0/gems/compass-core-1.0.3/stylesheets/compass/reset/_utilities.scss */
+article, aside, details, figcaption, figure, footer, header, hgroup, main, menu, nav, section, summary {
+  display: block;
+}
+
+/* line 8, ../Sass/sass/utilities/_common-import.scss */
+* {
+  -moz-box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+}
+
+/* line 106, ../../../../../../../../../Library/Ruby/Gems/2.0.0/gems/compass-core-1.0.3/stylesheets/compass/typography/_vertical_rhythm.scss */
+html {
+  font-size: 87.5%;
+  line-height: 1.57143em;
+}
+
+/* line 8, ../Sass/sass/partials/_typography.scss */
+html {
+  font-size: 14px;
+  line-height: 1.6em;
+  -webkit-text-size-adjust: 100%;
+}
+
+/* line 14, ../Sass/sass/partials/_typography.scss */
+body {
+  background: #fcfcfc;
+  color: #545454;
+  text-rendering: optimizeLegibility;
+  font-family: "Avenir-Book";
+}
+
+/* line 21, ../Sass/sass/partials/_typography.scss */
+a {
+  color: #de4c4f;
+  text-decoration: none;
+  font-size: 16px;
+}
+
+/* line 26, ../Sass/sass/partials/_typography.scss */
+h1 {
+  font-family: "Avenir-Medium";
+  color: #333333;
+  font-size: 1.6em;
+  line-height: 1.3em;
+  margin-bottom: 0.78571em;
+}
+
+/* line 34, ../Sass/sass/partials/_typography.scss */
+h2 {
+  font-family: "Avenir-Medium";
+  color: #333333;
+  font-size: 1.3em;
+  line-height: 1em;
+  margin-bottom: 0.62857em;
+}
+
+/* line 44, ../Sass/sass/partials/_typography.scss */
+h3 {
+  font-family: "Avenir-Medium";
+  color: #333333;
+  font-size: 1.15em;
+  line-height: 1em;
+  margin-bottom: 0.47143em;
+}
+
+/* line 53, ../Sass/sass/partials/_typography.scss */
+p {
+  margin-bottom: 1.57143em;
+  hyphens: auto;
+}
+
+/* line 58, ../Sass/sass/partials/_typography.scss */
+hr {
+  height: 1px;
+  border: 0;
+  background-color: #dedede;
+  color: #FF0042;
+  margin: -1px auto 1.57143em auto;
+}
+hr.red {
+  color: #FF0042;
+}
+/* line 66, ../Sass/sass/partials/_typography.scss */
+ul, ol {
+  margin-bottom: 1.57143em;
+}
+/* line 68, ../Sass/sass/partials/_typography.scss */
+ul ul, ul ol, ol ul, ol ol {
+  margin-bottom: 0px;
+}
+
+/* line 73, ../Sass/sass/partials/_typography.scss */
+b, strong {
+  font-family: "Avenir-Heavy";
+}
+
+/* line 77, ../Sass/sass/partials/_typography.scss */
+i, em {
+  font-family: "Avenir-BookOblique";
+}
+
+/* line 81, ../Sass/sass/partials/_typography.scss */
+code {
+  font-family: "Menlo-Regular";
+}
+
+/* line 87, ../Sass/sass/partials/_typography.scss */
+.text-overflow-ellipsis {
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}
+
+/* line 8, ../Sass/sass/HTMLExport.scss */
+.note-wrapper {
+  max-width: 46em;
+  margin: 0px auto;
+  padding: 1.57143em 3.14286em;
+}
+/* line 13, ../Sass/sass/HTMLExport.scss */
+.note-wrapper.spotlight-preview {
+  overflow-x: hidden;
+}
+
+/* line 18, ../Sass/sass/HTMLExport.scss */
+u {
+  text-decoration: none;
+  background-image: linear-gradient(to bottom, rgba(0, 0, 0, 0) 50%, #e06e73 50%);
+  background-repeat: repeat-x;
+  background-size: 2px 2px;
+  background-position: 0 1.05em;
+}
+
+/* line 23, ../Sass/sass/HTMLExport.scss */
+s {
+  color: #878787;
+}
+
+/* line 27, ../Sass/sass/HTMLExport.scss */
+p {
+  margin-bottom: 0.1em;
+}
+
+/* line 31, ../Sass/sass/HTMLExport.scss */
+hr {
+  margin-bottom: 0.7em;
+  margin-top: 0.7em;
+}
+
+/* line 37, ../Sass/sass/HTMLExport.scss */
+ul li {
+  text-indent: -0.6em;
+}
+/* line 39, ../Sass/sass/HTMLExport.scss */
+ul li:before {
+  content: "•";
+  color: #e06e73;
+  display: inline-block;
+  margin-right: 0.3em;
+}
+/* line 46, ../Sass/sass/HTMLExport.scss */
+ul ul {
+  margin-left: 1.25714em;
+}
+
+/* line 52, ../Sass/sass/HTMLExport.scss */
+ol li {
+  text-indent: -1.25em;
+}
+/* line 55, ../Sass/sass/HTMLExport.scss */
+ol ol {
+  margin-left: 1.25714em;
+}
+
+/* line 60, ../Sass/sass/HTMLExport.scss */
+quote {
+  display: block;
+  margin-left: -1em;
+  padding-left: 0.8em;
+  border-left: 0.2em solid #e06e73;
+}
+
+/* line 69, ../Sass/sass/HTMLExport.scss */
+.todo-list ul {
+  margin-left: 1.88571em;
+}
+/* line 73, ../Sass/sass/HTMLExport.scss */
+.todo-list li {
+  text-indent: -1.75em;
+}
+/* line 76, ../Sass/sass/HTMLExport.scss */
+.todo-list li:before {
+  content: "";
+  display: static;
+  margin-right: 0px;
+}
+
+/* line 84, ../Sass/sass/HTMLExport.scss */
+.todo-checkbox {
+  text-indent: -1.7em;
+}
+/* line 87, ../Sass/sass/HTMLExport.scss */
+.todo-checkbox svg {
+  margin-right: 0.3em;
+  position: relative;
+  top: 0.2em;
+}
+/* line 92, ../Sass/sass/HTMLExport.scss */
+.todo-checkbox svg #check {
+  display: none;
+}
+/* line 97, ../Sass/sass/HTMLExport.scss */
+.todo-checkbox.todo-checked #check {
+  display: inline;
+}
+/* line 100, ../Sass/sass/HTMLExport.scss */
+.todo-checkbox.todo-checked .todo-text {
+  text-decoration: line-through;
+  color: #878787;
+}
+
+/* line 107, ../Sass/sass/HTMLExport.scss */
+.code-inline {
+  display: inline-block;
+  background: white;
+  border: solid 1px #dedede;
+  padding: 0.0em 0.5em;
+  font-size: 0.9em;
+}
+.title-h2 {
+  color: #0096FA;
+
+}
+/* line 115, ../Sass/sass/HTMLExport.scss */
+.code-multiline {
+  display: block;
+  background: white;
+  border: solid 1px #dedede;
+  padding: 0.7em 1em;
+  font-size: 0.9em;
+  overflow-x: auto;
+}
+
+/* line 124, ../Sass/sass/HTMLExport.scss */
+.hashtag {
+  display: inline-block;
+  color: white;
+  background: #b8bfc2;
+  padding: 0.0em 0.5em;
+  border-radius: 1em;
+}
+/* line 130, ../Sass/sass/HTMLExport.scss */
+.hashtag a {
+  color: white;
+}
+
+/* line 137, ../Sass/sass/HTMLExport.scss */
+.address a {
+  color: #545454;
+  background-image: linear-gradient(to bottom, rgba(0, 0, 0, 0) 50%, #0da35e 50%);
+  background-repeat: repeat-x;
+  background-size: 2px 2px;
+  background-position: 0 1.05em;
+}
+/* line 142, ../Sass/sass/HTMLExport.scss */
+.address svg {
+  position: relative;
+  top: 0.2em;
+  display: inline-block;
+  margin-right: 0.2em;
+}
+
+/* line 150, ../Sass/sass/HTMLExport.scss */
+.color-preview {
+  display: inline-block;
+  width: 1em;
+  height: 1em;
+  border: solid 1px rgba(0, 0, 0, 0.3);
+  border-radius: 50%;
+  margin-right: 0.1em;
+  position: relative;
+  top: 0.2em;
+  white-space: nowrap;
+}
+
+/* line 162, ../Sass/sass/HTMLExport.scss */
+.color-code {
+  margin-right: 0.2em;
+  font-family: "Menlo-Regular";
+  font-size: 0.9em;
+}
+
+/* line 168, ../Sass/sass/HTMLExport.scss */
+.color-hash {
+  opacity: 0.4;
+}
+
+/* line 176, ../Sass/sass/HTMLExport.scss */
+.ordered-list-number {
+  color: #e06e73;
+  text-align: right;
+  display: inline-block;
+  min-width: 1em;
+}
+
+/* line 185, ../Sass/sass/HTMLExport.scss */
+.arrow svg {
+  position: relative;
+  top: 0.08em;
+  display: inline-block;
+  margin-right: 0.15em;
+  margin-left: 0.15em;
+}
+/* line 192, ../Sass/sass/HTMLExport.scss */
+.arrow svg #rod {
+  stroke: #545454;
+}
+/* line 193, ../Sass/sass/HTMLExport.scss */
+.arrow svg #point {
+  fill: #545454;
+}
+
+/* line 197, ../Sass/sass/HTMLExport.scss */
+img {
+  max-width: 100%;
+  height: auto;
+}
